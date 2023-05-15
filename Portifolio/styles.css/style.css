@@ -1,0 +1,118 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow: hidden;
+}
+.background{
+    background:linear-gradient(rgba(1, 0, 8, 0.902), rgba(58, 0, 71, 0.92)),url(../background.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    align-items: center;
+    text-align: center;
+    padding-top: 6rem;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.cabeçalho-link a{
+    color: rgb(200, 163, 200);
+    font-size: 80px;
+}
+.cabeçalho-link a:hover{
+    color: hsl(304, 89%, 21%);
+    transition: 0.3s all;
+
+}
+.logo i{
+    height: 120px;
+    width: 130px;
+    background: transparent;
+    border-radius: 42px 74px;
+    border: 1px solid rgb(200, 163, 200);
+    color:rgb(200, 163, 200);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+button{
+    color: rgb(200, 163, 200);
+    background:hsla(300, 71%, 68%, 0.08) ;
+    border: 1px solid rgb(200, 163, 200);
+    border-radius: 32px 64px;
+    padding: 5px;
+    font-size: 65px;
+    width: 450px;
+    height: 100px;
+    cursor: pointer;
+}
+button:hover{
+background-color: hsl(304, 92%, 33%);
+color:rgb(200, 163, 200);
+transition: 0.5s;
+transform: translate(5px, 12px);
+}
+.container-text{
+    padding: 250px 0 0 350px;
+}
+.text h3{
+    color:hsl(304, 92%, 33%);
+    font-size: 65px;
+}
+.text h1{
+    color:hsl(304, 92%, 33%);
+    margin-top: 10px;
+    font-size: 80px;
+}
+.text span{
+    color:rgb(200, 163, 200);
+}
+.text p{
+    color: rgb(232, 218, 232);
+    font-size: 55px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+ul{
+    color: rgb(202, 9, 202);
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: 10px; 
+}
+.redes-sociais{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.redes-sociais a{
+    color: rgb(200, 163, 200);
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn{
+    margin-top: 10px;
+}
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+       display: none;
+    }
+}
